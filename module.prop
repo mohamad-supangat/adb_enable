@@ -1,0 +1,6 @@
+id=adb_enable
+name=adb enable
+version=1.0
+versionCode=1
+author=mohamad supangat
+description=enable adb by default

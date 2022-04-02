@@ -1,0 +1,14 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+
+#fix fingerprint when magiskhide enabled
+persist.adb.notify=0
+persist.sys.usb.config=mtp,adb
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+service.adb.root=1
+persist.sys.root_access=1
+persist.service.adb.enable=1
+service.adb.tcp.port=7777
